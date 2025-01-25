@@ -1,3 +1,4 @@
+// Variables
 $primary-color: #14438F;
 $secundary-color: #2780C2;
 $background-color: #eee;
@@ -47,6 +48,10 @@ $font-family: 'Open Sans', Arial, sans-serif;
             .password-group{
                 display: flex;
                 flex-direction: row;
+            }
+
+            span{
+                color: #a00000;
             }
         }
       }

@@ -1,0 +1,60 @@
+// Variables
+$primary-color: #14438F;
+$secundary-color: #2780C2;
+$background-color: #eee;
+$font-family: 'Open Sans', Arial, sans-serif;
+
+.page{
+    padding: 0% 15% 0%;
+    font-family: $font-family;
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    
+        div{
+            width: 50%;
+        }
+    
+        .logo{
+            width: 10%;
+            
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    hr{
+        margin: 5px 0px 5px;
+        border: 1px solid black;
+    }
+
+    table{
+        font-size: 13px;
+    }
+
+    .buttons{
+        button{
+            background-color: $secundary-color;
+            color: white;
+            padding: 1% 4% 1%;
+            border: 5px solid red;
+            border-radius: 5px;
+        }
+    }
+
+    .note, .footer-diasnosis{
+        font-size: 9px;
+    }
+
+    .sign{
+        width: 15%;
+        img{
+            width: 100%;
+        }
+    }
+
+}

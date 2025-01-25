@@ -1,0 +1,42 @@
+// Variables
+$primary-color: #14438F;
+$secundary-color: #2780C2;
+$background-color: #eee;
+$font-family: 'Open Sans', Arial, sans-serif;
+
+.nav{
+    background-color: $primary-color;
+    height: 60px;
+
+    .nav-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+
+        select{
+            border: none;
+            background-color: transparent;
+            font-family: $font-family;
+            color: white;
+
+            option{
+                color: black;
+            }
+        }
+
+
+        .logo{
+            width: 5%;
+    
+            img{
+                width: 65%;
+            }
+        }
+
+    }
+
+    
+}
